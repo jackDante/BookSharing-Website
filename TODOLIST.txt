@@ -1,0 +1,3 @@
+1--ordinare controllo sessione (principalmente dentro gli script!)
+2--migliorare tipo MIME di accetazione immagine nell'UPLOAD del profilo eo libro perchè accettiamo solo i jpeg.
+3-- più controlli nel DB: aggiungere chiave esterna su chi invio il messaggio, cioè il destinatario deve esistere perchè altrimenti mi aggiunge comunque il mex nel db! (SQL FOREIGN KEY Constraint)

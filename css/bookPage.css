@@ -1,0 +1,165 @@
+.navbar{
+	margin-bottom:0px;
+}
+
+
+/*Content*/
+#contentBookPage{
+	width:100%;
+	margin-left:12vw;
+	margin-right:12vw;
+	margin-bottom:60vw; /* tarato per render il footer visibile*/
+	/*line-height:1.1vw;*/
+}
+
+
+/* Book View */
+#BookCover{
+	float:left;
+	margin-right:2vw;
+	margin-top:3vw;
+	width:20vw;
+	height:auto;
+}
+
+#BookCover>img{
+	box-shadow: 0.4vw 0.4vw 0.2vw grey; 	
+	height:25vw;
+	width:20vw;
+}
+
+#BookDescription{
+	float:left;
+	line-height:1.5vw;
+	margin-right:2vw;
+	margin-top:3vw;
+	width:38vw;
+}
+
+
+#SellerInfo{
+	padding:1vw;
+    border: 0.3vw solid #0095cc;
+	border-radius:0.2vw;
+
+	float:left;
+	line-height:1.5vw;
+	margin-right:1vw;
+	margin-top:3vw;
+	width:12vw;
+	height:auto;
+	background-color: #89DAB7;
+
+}
+
+#Seller{
+	height:3vw;
+}
+
+#Seller>h5{
+	font-size:1.2vw;
+	line-height:1.5vw;
+}
+
+#Seller>p{
+	font-size:1vw;
+	line-height:1.5vw;
+}
+
+#Seller>a{
+	font-size:1.2vw;
+	line-height:1.5vw;
+	text-decoration: underline;
+  	-webkit-text-decoration-color: green; /* Safari */  
+  	text-decoration-color: green;
+}
+
+#Title{
+	display:block;
+	font-size:3vw;
+	font-weight:bold;
+	margin-bottom:1vw;
+	line-height:2.5vw;
+}
+
+#Author{
+	display:block;
+	font-size:1.2vw;
+}
+
+#Text{
+	display:block;
+	margin-top:2vw;
+	font-size:1vw;
+}
+
+#Details{
+	display:block;
+	float:left;
+	line-height:1.5vw;
+	margin-right:3vw;
+	margin-top:2vw;
+	width:60vw;
+}
+
+#Details>h2{
+	font-size:2.4vw;
+	line-height:1.5vw;
+}
+
+#categoryBook{
+	display:block;
+	float:left;
+	line-height:1.5vw;
+	margin-right:3vw;
+	margin-top:2vw;
+	width:60vw;
+}
+
+#categoryBook>h3{
+	font-size:2vw;
+	line-height:1.5vw;
+}
+
+#categoryBook>a{
+	text-decoration:none;
+	font-size:1vw;
+}
+
+
+.Info>h5{
+	display:inline;
+	font-size:1.2vw;
+	line-height:1.5vw;
+}
+
+.Info>p{
+	display:inline;
+	font-size:1vw;
+	line-height:1.5vw;
+}
+
+
+.AddFavourite>a{
+	display:inline;
+	line-height:1.5vw;
+	font-size:1vw;
+	text-decoration: underline;
+  	-webkit-text-decoration-color: green; /* Safari */  
+  	text-decoration-color: green;
+}
+
+.AddFavourite>p{
+	display:inline;
+	line-height:1.5vw;
+	font-size:1vw;
+	text-decoration: underline;
+  	-webkit-text-decoration-color: green; /* Safari */  
+  	text-decoration-color: green;
+}
+
+/*
+.icon-star-empty{background-position:-144px 0;}
+.icon-star{background-position:-120px 0;}
+.icon-star-empty{background-position:-144px 0;}
+*/

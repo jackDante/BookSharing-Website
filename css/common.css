@@ -1,0 +1,207 @@
+
+
+
+.body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.body-s {
+    max-width: 700px;
+}
+
+.input-group{
+  border-radius: 40px
+}
+
+/* affianco al nome utente loggato*/
+.profile-img{
+  margin:0 15px;
+  width: 22px; 
+  height:auto;
+  transform: scale(1.6);
+}
+
+
+
+/*-- change navbar dropdown color --*/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+  background-color: #0052cc;
+  color: white;
+}
+
+.navbar {
+  height: auto; 
+  margin-bottom: 0;
+  background-color: #0052cc;
+  z-index: 9999;
+  border: 0;
+  font-size: 18px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+  font-size: 18px !important;
+
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #0052cc !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+
+@media (max-width: 980px){
+    .backimg{
+        min-height:calc(100% - 98px);
+    }
+}
+
+#auto-height{
+	height:auto;
+}
+
+
+/* ,h6 */
+h1,h2,h3,h4,h5,p,a{
+	color:#151515;
+}
+
+
+.errorLogin{
+	color:red;
+}
+
+
+ 
+
+/*Sign Up ---------------------------------------------*/
+
+#signUpForm{
+    background-color:transparent;
+    height:auto;
+    width:100%;
+    visibility:hidden;
+    overflow:hidden;
+}
+
+#signUpForm>h1{
+    text-align:center;
+    font-size:210%;
+}
+
+#signUpForm>form{
+    margin-left: 10%;
+}
+
+#signUpForm>form>table{
+    min-height:200px;
+}
+
+@media (max-width: 600px){
+    #signUpForm{
+		margin-left:0%;
+		width:80%;
+    }
+  }
+
+@media (max-width: 400px){
+    #signUpForm{
+        padding-left:5%;
+        width:80%;
+    }
+}
+
+
+
+/* Log In ---------------------------------------------*/
+
+#logIn{
+    background-color:transparent;
+    height:auto;
+    width:100%;
+    visibility:visible;
+    overflow:auto;
+}
+
+@media (max-width: 600px){
+    #logIn{
+		margin-left:0%;
+		width:80%;
+    }
+  }
+
+@media (max-width: 400px){
+    #logIn{
+        padding-left:5%;
+        width:80%;
+    }
+}
+.exit{
+    margin-left:95%;
+    margin-top:1%;
+    position:absolute;
+}
+
+#logIn>h1{
+    text-align:center;
+    font-size:210%;
+}
+
+#logIn>form{
+    margin-left: 10%;
+}
+
+#logIn>form>table{
+    min-height:200px;
+}
+
+/* Title Home Category */
+.typeHome>h1{
+	font-size:3vw;
+    margin-top:1vw;
+}
+
+
+
+/*Settings---------------------------------------------*/
+
+#settings{
+    background-color:transparent;
+    visibility:visible;
+    height:auto;
+    width:100%;
+}
+
+#settings>h1{
+    text-align:center;
+    font-size:210%;
+}
+
+#settings>form>table{
+    min-height:200px;
+}
+@media (max-width: 600px){
+    #settings{
+		margin-left:0%;
+		width:80%;
+    }
+  }
+
+
+@media (max-width: 400px){
+    #settings{
+        padding-left:5%;
+        width:80%;
+    }
+}
+
+#SearchButton{
+  border-radius: 3px;
+}

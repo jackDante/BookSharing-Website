@@ -1,0 +1,307 @@
+html,body {
+    margin: 0;
+    height: auto;
+    height: 100%;
+}
+
+
+body
+{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.backimginsert{
+	background: url(../img/insert_new.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    min-height:calc(100% - 99px);
+    padding-bottom: 30px;
+}
+
+
+@media (max-width: 980px){
+    .backimginsert{
+        min-height:calc(100% - 98px);
+    }
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-div {
+	background: #00cccc;
+	filter: alpha(opacity=90);
+	filter: progid: DXImageTransform.Microsoft.Alpha(opacity=90);
+	-moz-opacity: 0.90;
+	opacity: 0.9;
+    height:auto;
+    width:60%;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+    margin-left:20%;
+    margin-bottom: 40px;
+	
+	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+	-webkit-border-radius: 7px; 
+	/* Firefox 1-3.6 */
+	-moz-border-radius: 7px; 
+	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+	border-radius: 7px; 
+
+}
+
+.title{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:700;
+}
+
+.BookCover>img{
+	height:18vw;
+	width:10vw;
+	float:left;
+	display:inline;
+}
+
+/* Add new category */
+.button-plus{
+	background-color: #8c9cbf;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8c9cbf), color-stop(50%, #546a9e), color-stop(50%, #36518f), color-stop(100%, #3d5691));
+    background-image: -webkit-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+    background-image: -moz-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+    background-image: -ms-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+    background-image: -o-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+    background-image: linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+    border: 1px solid #172d6e;
+    border-bottom: 1px solid #0e1d45;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 0 0 #b1b9cb;
+    box-shadow: inset 0 1px 0 0 #b1b9cb;
+    color: #fff;
+    font: bold 16px/1 "helvetica neue", helvetica, arial, sans-serif;
+    padding: 7px 0 8px 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0 -1px 1px #000f4d;
+    width: 150px;
+}
+
+.button-remove{
+    background-color: #ee432e;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee432e), color-stop(50%, #c63929), color-stop(50%, #b51700), color-stop(100%, #891100));
+    background-image: -webkit-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+    background-image: -moz-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+    background-image: -ms-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+    background-image: -o-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+    background-image: linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+    border: 1px solid #951100;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+    box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+    color: #fff;
+    font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+    padding: 12px 5px 14px 5px;
+    text-align: center;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.montform .feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+.montform .col {
+	float: left;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.montform .col-6 {
+	width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+	.montform .col {
+		float: none;
+		width: 100%;
+	}
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="file"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+{
+	height: auto;
+}
+
+.montform .feedback-input:focus{
+	background: #fff;
+	border: 3px solid #3498db;
+	color: black;
+	outline: none;
+	padding: 13px 13px 13px 54px;
+}
+
+
+/* icone -----------------------------*/
+.montform  #author{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.8/collection/icon/svg/ios-man.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #pages{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.8/collection/icon/svg/ios-book.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #edition{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.8/ionicons/svg/logo-slack.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #isbn{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.8/ionicons/svg/logo-ionic.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #title{
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.8/ionicons/svg/ios-today.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #price{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-price-tag.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #place{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-map.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #description{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #comment{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+.montform  #image{
+	background-image: url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.8/collection/icon/svg/md-photos.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+
+.montform  textarea {
+	width: 100%;
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
+}
+
+.montform  input:hover, .montform  textarea:hover,
+.montform  input:focus, .montform  textarea:focus {
+	background-color:#e6e6e6;
+}
+
+
+/* insertNewBook > SUBMIT button */
+.button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #0052cc;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	transition: all 0.3s;
+	margin-top:-4px;
+	font-weight:700;
+}
+
+.button-red{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #fb2323;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	transition: all 0.3s;
+	margin-top:-4px;
+	font-weight:700;
+}
+
+
+.button-blue:hover{
+	background-color: green;
+	color: red;
+}
+
+.button-red:hover{
+	background-color: black;
+	color: red;
+}
+
+.montform  .submit:hover {
+	color: #0052cc;
+}
+
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+	width:100%;
+	background-color: green;
+}
+
+/*Styles for small screens*/
+
+@media  only screen and (max-width: 600px) {
+	#form-div{
+		padding-left:15px;
+		padding-right:15px;
+		padding-top:35px;
+		padding-bottom:50px;
+		margin-left:10%;
+		width:70%;
+	}
+}
